@@ -1,2 +1,5 @@
 # macOS Setup
-1. Enable dock autohiding without delay: `defaults write com.apple.dock autohide-delay -float 0; defaults write com.apple.dock autohide-time-modifier -int 0;killall Dock`
+
+## Enable dock autohiding without delay:
+1. In settings, enable `Automatically hide and show dock` in _**Desktop & Dock**_
+2. In terminal, run this command: `defaults write com.apple.dock autohide-delay -float 0; defaults write com.apple.dock autohide-time-modifier -int 0;killall Dock`
