@@ -12,3 +12,4 @@
 
 ## Disable two-finger back swipe in browser
 1. Terminal Command: `defaults write com.google.Chrome AppleEnableSwipeNavigateWithScrolls -bool FALSE`
+2. Restart Chrome
