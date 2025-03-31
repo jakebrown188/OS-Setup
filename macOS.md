@@ -8,7 +8,7 @@
 1. In terminal, run this command: `defaults write com.apple.screencapture type jpg`
 
 ## Change TextEdit to automatically open new document
-1. defaults write com.apple.TextEdit NSShowAppCentricOpenPanelInsteadOfUntitledFile -bool false
+1. Terminal Command: `defaults write com.apple.TextEdit NSShowAppCentricOpenPanelInsteadOfUntitledFile -bool false`
 
 ## Disable two-finger back swipe in browser
-1. defaults write com.google.Chrome AppleEnableSwipeNavigateWithScrolls -bool FALSE
+1. Terminal Command: `defaults write com.google.Chrome AppleEnableSwipeNavigateWithScrolls -bool FALSE`
